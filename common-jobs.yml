@@ -1,5 +1,8 @@
 .template_job:
-  stage: template 
   before_script:
-    echo "All praises to Allah"
+  - echo "All praises to Allah"
+
+.another_template:
+  before_script:
+  - echo "Al'hamdulillah"
 
